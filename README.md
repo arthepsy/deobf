@@ -1,5 +1,5 @@
 # deobfuscate passwords
-Some "encrypted" passwords are actually obfuscated and leads to **false sense of security**.
+Some "encrypted" passwords are actually obfuscated and lead to **false sense of security**.
 
 ### JetBrains WebStorm
 Stored passwords can be found in `webServers.xml` file.  
