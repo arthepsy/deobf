@@ -81,8 +81,8 @@ if __name__ == '__main__':
 	if len(sys.argv) > 1:
 		s = sys.argv[1]
 		if s.startswith(OBF_PREFIX):
-			print( jetty_deobfuscate(s) )
+			print(jetty_deobfuscate(s))
 		else:
-			print( jetty_obfuscate(s) )
+			print(jetty_obfuscate(s))
 	else:
 		print('Usage:\n  {0} [OBF:]password'.format(sys.argv[0]))
