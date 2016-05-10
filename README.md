@@ -17,3 +17,17 @@ This utility is both Python 2 and Python 3 compatible, without any dependencies.
   Password
   ```
 
+### Eclipse Jetty
+This utility is both Python 2 and Python 3 compatible, without any dependencies.  
+
+* Obfuscate (_encrypt_) password:  
+  ```
+  ./jetty.obf.py Password
+  OBF:1oq31uum1xtv1zej1zer1xtn1uvk1or7
+  ```
+
+* Deobfuscate (_decrypt_) password:  
+  ```
+  ./jetty.obf.py OBF:1oq31uum1xtv1zej1zer1xtn1uvk1or7
+  Password
+  ```
